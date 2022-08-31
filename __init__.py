@@ -1,7 +1,7 @@
 from distutils.log import debug
 
 
-def Error(Type, Message, Code, Debug):
+def Error(Type, Message, Debug, Code):
     if Debug == True:
         print("Remember to set the debug variable to False when you're done debugging! Also, check out the documentation for more information.")
         print("Type: " + Type)
