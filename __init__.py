@@ -11,7 +11,7 @@ def Error(Type, Message, Debug, Code):
         if Code == 0:
             print("Error: " + Message)
         elif Code > 0:
-            print("Error Code: " + str(Code) + "" + str(Type) + " " + str(Message))
+            print("Error Code: " + str(Code) + " " + str(Type) + " " + str(Message))
     except:
         if debug == True:
             print("An error occurred while trying to print the error message. Please check the documentation at https://patric-k-k.github.io/DOC/Error_handle.html for more information.")
